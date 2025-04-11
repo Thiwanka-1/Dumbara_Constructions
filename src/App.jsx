@@ -7,6 +7,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Projects from './pages/projects';
 import Contact from './pages/Contact';
+import Vacancies from './pages/Vacancies';
 export default function App() {
   return <BrowserRouter>
   <TopBar />
@@ -17,6 +18,7 @@ export default function App() {
       <Route path = "/services" element = {<Services />} /> {/* done */}
       <Route path = "/projects" element = {<Projects />} /> {/* done */}
       <Route path = "/contact" element = {<Contact />} /> {/* done */}
+      <Route path = "/vacancies" element = {<Vacancies />} /> {/* done */}
     </Routes>
     <Footer />
 
