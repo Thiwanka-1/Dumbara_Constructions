@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import TopBar from './components/Topbar';
 import About from './pages/About';
 import Services from './pages/Services';
-
+import Projects from './pages/projects';
+import Contact from './pages/Contact';
 export default function App() {
   return <BrowserRouter>
   <TopBar />
@@ -14,6 +15,8 @@ export default function App() {
       <Route path = "/" element = {<Home />} /> {/* done */}
       <Route path = "/about" element = {<About />} /> {/* done */}
       <Route path = "/services" element = {<Services />} /> {/* done */}
+      <Route path = "/projects" element = {<Projects />} /> {/* done */}
+      <Route path = "/contact" element = {<Contact />} /> {/* done */}
     </Routes>
     <Footer />
 
